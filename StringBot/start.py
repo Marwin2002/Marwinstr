@@ -15,18 +15,18 @@ async def start(client, message: Message):
         ],
         [
             InlineKeyboardButton("▪️sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ▪️", url=SUPPORT_CHAT),
-            InlineKeyboardButton("▪️ᴜᴘᴅᴀᴛᴇs ▪️", url="https://t.me/HEROKUBIN_01")
+            InlineKeyboardButton("▪️ᴜᴘᴅᴀᴛᴇs ▪️", url="https://t.me/The_Architect04")
         ],
         [
-            InlineKeyboardButton("▪️ sᴏᴜʀᴄᴇ ▪️", url="https://github.com/Badhacker98/StringBot/fork"),
-            InlineKeyboardButton("▪️ ᴍᴜsɪᴄ ʙᴏᴛ ▪️", url="https://t.me/Gaana_MusicBot")
+            InlineKeyboardButton("▪️ sᴏᴜʀᴄᴇ ▪️", url="https://github.com"),
+            InlineKeyboardButton("▪️ ᴍᴜsɪᴄ ʙᴏᴛ ▪️", url="https://t.me/AmritaMusicBot")
         ]
     ]
 
     # Send a message to the user who started the bot
     await client.send_photo(
         chat_id=message.chat.id,
-        photo="https://files.catbox.moe/bl1can.jpg",
+        photo="https://envs.sh/5gF.jpg",
         caption=f"""❍ ʜᴇʏ {message.from_user.mention} 
         
 ❍ ɪ ᴀᴍ {me2}
@@ -35,7 +35,7 @@ async def start(client, message: Message):
 
 ❍ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ 'ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇ' ᴛᴏ ꜱᴛᴀʀᴛ.
 
-❍ ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ: [⏤͟͟͞͞🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•⏤͟͟͞͞‌](tg://user?id={OWNER_ID}) """,
+❍ ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ: [𝑻𝒉𝒆 𝑨𝒓𝒄𝒉𝒊𝒕𝒆𝒄𝒕 ](tg://user?id={OWNER_ID}) """,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
